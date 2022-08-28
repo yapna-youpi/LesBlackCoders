@@ -4,18 +4,20 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
-  
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
-        'Josefin': ['Josefin Sans', 'sans-serif'],
+        'guthen': ['Guthen', 'sans-serif'],
+        'inter': ['Inter']
       },
       colors: {
-        'orang': '#FF6C00',
-        'blu': '#423f8d',
-        'blac': '#4C4C4C',
-        'indig': "#786fa6 ",
-        'ros': "#FFF8FE "
+        'orang': '#FFD436',
+        'orag': '#FEB805',
+        'blu': '#13AAED',
+        'gree': '#44B349',
+        'indig': "#1B49BA ",
+        'slat': "#211D1E "
       },
     },
   },

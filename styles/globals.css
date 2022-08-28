@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Guthen';
+  src: url('../assets/fonts/GuthenBlootsPersonalUse-ExwW.ttf');
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter-Regular.ttf');
+}
+
 html,
 body {
   padding: 0;
@@ -24,5 +33,32 @@ a {
   body {
     color: white;
     background: black;
+  }
+}
+
+@layer base{
+
+}
+
+@layer components{
+
+  /* prototypage du footer */
+  .list{
+    @apply text-sm text-slat font-medium mt-7
+  }
+  .lig{
+    @apply  mt-4 cursor-pointer hover:text-orag  font-normal text-lg
+  }
+
+  .title4{
+    @apply text-sm font-semibold ;
+  }
+
+  .footer-blc{
+    @apply w-full lg:w-11/12 text-center ;
+  }
+
+  .foot{
+    @apply w-full mx-auto sm:w-6/12 lg:w-5/12 lg:flex;
   }
 }
