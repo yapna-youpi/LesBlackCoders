@@ -14,13 +14,13 @@ function Work() {
             </div>
             <div className="work-detail flex justify-around">
                 <ul >
-                    <li className='my-5 mr-2 flex '><span className='text-gree text-3xl mr-4'><BsCheckCircleFill /></span> <span className='text-black text-2xl'> 100% Bilinguals</span></li>
-                    <li className='my-5 mr-2 flex '><span className='text-gree text-3xl mr-4'><BsCheckCircleFill /></span> <span className='text-black text-2xl'> High Retention Rates</span></li>
-                    <li className='my-5 mr-2 flex '><span className='text-gree text-3xl mr-4'><BsCheckCircleFill /></span> <span className='text-black text-2xl'> Junior, Mid-level, and Senior Devss</span></li>
-                    <li className='my-5 mr-2 flex '><span className='text-gree text-3xl mr-4'><BsCheckCircleFill /></span> <span className='text-black text-2xl'> Expertise in a Variety of Coding Languagess</span></li>
-                    <li className='my-5 mr-2 flex '><span className='text-gree text-3xl mr-4'><BsCheckCircleFill /></span> <span className='text-black text-2xl'> Excellent Communication Skillss</span></li>
-                    <li className='my-5 mr-2 flex '><span className='text-gree text-3xl mr-4'><BsCheckCircleFill /></span> <span className='text-black text-2xl'> Rigorous Recruitment Processs</span></li>
-                    <li className='my-5 mr-2 flex '><span className='text-gree text-3xl mr-4'><BsCheckCircleFill /></span> <span className='text-black text-2xl'> Fast Culture Adaptabilitys</span></li>
+                    <li className='my-5 mr-2 flex '><span className='text-gree text-3xl mr-4'><BsCheckCircleFill /></span> <span className='text-black font-semibold text-2xl'> 100% Bilinguals</span></li>
+                    <li className='my-5 mr-2 flex '><span className='text-gree text-3xl mr-4'><BsCheckCircleFill /></span> <span className='text-black font-semibold text-2xl'> High Retention Rates</span></li>
+                    <li className='my-5 mr-2 flex '><span className='text-gree text-3xl mr-4'><BsCheckCircleFill /></span> <span className='text-black font-semibold text-2xl'> Junior, Mid-level, and Senior Devss</span></li>
+                    <li className='my-5 mr-2 flex '><span className='text-gree text-3xl mr-4'><BsCheckCircleFill /></span> <span className='text-black font-semibold text-2xl'> Expertise in a Variety of Coding Languagess</span></li>
+                    <li className='my-5 mr-2 flex '><span className='text-gree text-3xl mr-4'><BsCheckCircleFill /></span> <span className='text-black font-semibold text-2xl'> Excellent Communication Skillss</span></li>
+                    <li className='my-5 mr-2 flex '><span className='text-gree text-3xl mr-4'><BsCheckCircleFill /></span> <span className='text-black font-semibold text-2xl'> Rigorous Recruitment Processs</span></li>
+                    <li className='my-5 mr-2 flex '><span className='text-gree text-3xl mr-4'><BsCheckCircleFill /></span> <span className='text-black font-semibold text-2xl'> Fast Culture Adaptabilitys</span></li>
                 </ul>
             </div>
         </div>
