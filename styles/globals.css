@@ -61,4 +61,13 @@ a {
   .foot{
     @apply w-full mx-auto sm:w-6/12 lg:w-5/12 lg:flex;
   }
+  .listwork{
+    @apply my-5 mr-2 flex;
+  }
+  .spanwork{
+    @apply text-gree text-3xl mr-4
+  }
+  .letterwork{
+    @apply text-black font-semibold text-2xl
+  }
 }
