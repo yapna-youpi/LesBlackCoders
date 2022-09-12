@@ -17,7 +17,8 @@ module.exports = {
         'blu': '#13AAED',
         'gree': '#44B349',
         'indig': "#1B49BA ",
-        'slat': "#211D1E "
+        'slat': "#211D1E ",
+        'grey': "#5B6379"
       },
     },
   },
