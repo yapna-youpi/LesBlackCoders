@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import styles from '../styles/Home.module.css'
-import Header from '../components/header/Header'
+import Header from '../components/header/Navigator'
 import Main from "../components/Main/Main"
 import Footer from '../components/footer/Footer'
 

@@ -1,15 +1,18 @@
 import React from 'react'
+import Image from 'next/image'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { BsCheckCircleFill } from 'react-icons/bs'
+import img1 from '../../assets/images/info_image1.png'
+import img2 from '../../assets/images/info_image2.png'
 
 
 function Services() {
   return (
     <div className="services">
-        <h2>Our <span className="w-96  mx-auto my-10 font-guthen text-gree"> services</span></h2>
+        <h2 className="text-4xl font-semibold text-center mt-16">Our <span className="w-96 text-7xl font-thin mx-auto my-10 font-guthen text-gree"> services</span></h2>
         <div className="service-content1">
             <div className="content-left w-96 h-3/5 px-5 flex justify-around md:mr-20 md:translate-y-14 md:px-0 lg:-translate-y-14">
-                <img src="https://www.jobsity.com/_next/image?url=%2Fassets%2Fimg%2Fhome%2Finfo_image1.png&w=1920&q=75" alt="homme"/>
+                <Image src={img1}  width={400} height={450} alt="homme"/>
             </div>
             <div className="content-right">
                 
@@ -38,7 +41,7 @@ function Services() {
         <h2 className="w-6/12 text-5xl font-bold text-left ml-56 border  mt-28 ">
             Industries that<br/>
             work with Jobsity
-            <p className="w-96 text-5xl font-guthen text-blu mt-3 ">developers</p>
+            <p className="w-96 text-5xl font-guthen font-thin text-blu mt-3 ">developers</p>
         </h2>
         
         <div className="service-content1">
@@ -65,7 +68,7 @@ function Services() {
                 </div>
             </div>
             <div className="content-left w-96 h-3/5 px-5 flex justify-around md:mr-20 md:translate-y-14 md:px-0 lg:-translate-y-14">
-                <img src="https://www.jobsity.com/_next/image?url=%2Fassets%2Fimg%2Fhome%2Finfo_image1.png&w=1920&q=75" alt="homme"/>
+                <Image src={img2}  width={400} height={450} alt="homme2"/>
             </div>
         </div>
         <div className="service-content1">

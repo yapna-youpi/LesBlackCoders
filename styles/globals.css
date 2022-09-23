@@ -31,6 +31,18 @@ a {
   border-bottom-left-radius: 10px;
   border-top-left-radius: 30%;   
 }
+.social-icon{
+  padding: 13px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  margin: 5px;
+  border-radius: 50%;
+}
+.social-icon:hover{
+  color: gold;
+  transform: translateY(-3px);
+}
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -79,5 +91,8 @@ a {
   .service-content1{
     @apply  px-5 w-11/12 flex flex-col items-center mx-auto md:flex-row md:w-11/12  md:flex md:justify-around  lg:w-9/12
   }
+  .menu-item{
+    @apply mx-5 py-4
+  } 
   
 }

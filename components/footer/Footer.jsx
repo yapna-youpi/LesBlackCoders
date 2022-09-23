@@ -1,4 +1,8 @@
 import React from 'react'
+import { IoLogoWhatsapp, IoLogoYoutube } from 'react-icons/io'
+import { GrFacebookOption } from 'react-icons/gr'
+import { AiFillInstagram } from 'react-icons/ai'
+import { FaLinkedin } from 'react-icons/fa'
 
 function Footer() {
   return (
@@ -42,8 +46,12 @@ function Footer() {
                     </h4>
                     <p>+237 675 74 74 74</p>
                     <p>email@text.com</p>
-                    <div className="icons">
-                        i f g h w
+                    <div className="icons flex mt-5">
+                        <div className="social-icon"><IoLogoWhatsapp/></div>
+                        <div className="social-icon"><GrFacebookOption/></div>
+                        <div className="social-icon"><IoLogoYoutube/></div>
+                        <div className="social-icon"><AiFillInstagram/></div>
+                        <div className="social-icon"><FaLinkedin /></div>
                     </div>
                 </div>
 

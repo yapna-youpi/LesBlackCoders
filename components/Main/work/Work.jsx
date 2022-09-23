@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+import femme from "../../../assets/images/image3.png"
 import { BsCheckCircleFill } from 'react-icons/bs'
 
 function Work() {
@@ -10,7 +12,7 @@ function Work() {
         </h2></b>
         <div className="work-part2 px-10 justify-center mt-10 md:px-0  md:flex">
             <div className="work-img flex justify-around md:mr-8">
-                <img src='https://www.jobsity.com/_next/image?url=%2F_next%2Fstatic%2Fimages%2Ftimezone_girl_window-709d0838943214198460b4ce43b54c7f.png&w=640&q=75' alt='femme' />
+                <Image src={femme} width={450} height={350} alt="femme" />
             </div>
             <div className="work-detail flex justify-around">
                 <ul >
